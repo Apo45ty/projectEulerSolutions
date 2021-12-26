@@ -1,0 +1,1 @@
+These are my solutions to the https://projecteuler.net problems. Each class is a solution
