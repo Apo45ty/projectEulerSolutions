@@ -3,7 +3,7 @@ import java.math.BigInteger;
 public class Problem18{
     public static void main(String... args){
         int count = 0;
-        for(int i=1;i<=1000;i++){
+        for(int i=1;i<=Integer.parseInt(args[0]);i++){
             String sI = intToName(i).replace(" ","");
             System.out.println(sI);
             count+=sI.length();
